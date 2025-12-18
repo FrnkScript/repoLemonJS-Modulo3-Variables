@@ -40,9 +40,11 @@ console.log(grupoMusical2);
 console.log(grupoMusical3);
 console.log(grupoMusical4);
 
-const styles = "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;";
 
 /* crear constante para uso del estilo.*/
+const styles = "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;";
+
+/* console.log con el estilo implementado de cada Nombre del Grupo musical. */
 console.log(
     `%c${grupoMusical1.nombreGrupo}`, styles
 );
