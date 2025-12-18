@@ -40,22 +40,23 @@ console.log(grupoMusical2);
 console.log(grupoMusical3);
 console.log(grupoMusical4);
 
+const styles = "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;";
 
 /* crear constante para uso del estilo.*/
 console.log(
-    `%c${grupoMusical1.nombreGrupo}`, "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;"
+    `%c${grupoMusical1.nombreGrupo}`, styles
 );
 
 console.log(
-    `%c${grupoMusical2.nombreGrupo}`, "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;"
+    `%c${grupoMusical2.nombreGrupo}`, styles
 );
 
 console.log(
-    `%c${grupoMusical3.nombreGrupo}`, "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;"
+    `%c${grupoMusical3.nombreGrupo}`, styles
 );
 
 console.log(
-    `%c${grupoMusical4.nombreGrupo}`, "font-weight: bold; font-size: 15px; background-color: green; color: black; padding: 10px;"
+    `%c${grupoMusical4.nombreGrupo}`, styles
 );
 
 /* Nota para sacar los estilos del nombre del grupo:
